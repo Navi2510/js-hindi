@@ -52,3 +52,39 @@ const users = [
 ];
 
 users[1].email;
+
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // ye check krke btata hai ki y property exist krti hai object me ya nhi 
+
+
+// object destructuring -----
+
+const course ={
+    coursename : "JSinHindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+
+// course.courseInstructor
+
+
+const {courseInstructor : instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// mostly value JSON format me aati hai ---- object k form me
+
+// {
+//     "name" : "Navneet",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+
+//kabhi kabhi api jo hota hai array of object k format me hota hai
