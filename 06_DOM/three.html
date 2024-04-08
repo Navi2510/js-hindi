@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title") //-- ye wala option log jyada prefer krte hai ---
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px" //-- ye wala tarika shi nhi hai --- kyuki ye override krta hai jo bhi value hai us property me phle se usko override krta hai
+    // div.innerText = "Chai aur code" -- us value k reference ko leke aayega phir usko override krega
+    const addText = document.createTextNode("Chai aur code")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>
