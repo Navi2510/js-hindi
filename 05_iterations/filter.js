@@ -13,6 +13,9 @@
 // -- Dono forEach aur filter -- apne andar callback function hi lete hai -- mtlb ek function as a parameter
 
 
+// filter ek calback function leta hai aur ye values ko return krta hai
+
+
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter( (num) => {

@@ -1,5 +1,8 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
+
+// for each ko ek function chahiye hota hai lekin ye kuch return mhi krta khud se --
+
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
