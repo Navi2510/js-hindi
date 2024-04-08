@@ -27,7 +27,7 @@ map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('IN', "India")
 
-
+// Map always take unique values -- and it maintains the insertion order
 // console.log(map);
 
 for (const [key, value] of map) {

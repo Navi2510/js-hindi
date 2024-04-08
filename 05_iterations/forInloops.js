@@ -6,6 +6,7 @@ const myObject = {
 }
 
 // for in loop --- objects aur array don pe chalta hai
+// jyadatar objects ko iterate krne k liye use hota hai
 
 for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
